@@ -1,7 +1,7 @@
-#Steps
-1.Install dev tools\
-2.Create Angular App\
-    2.1.Create project folder\
+#Steps\
+&nbsp 1.Install dev tools\
+&nbsp 2.Create Angular App\
+&nbsp &nbsp 2.1.Create project folder\
     2.2.Install @angular/cli\
     2.3.Create Frontend\
         2.3.1.Add Header\
