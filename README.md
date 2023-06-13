@@ -39,5 +39,14 @@
 &emsp;&emsp;&emsp;&emsp;5.4.3.Add Food tags service (food.service.ts file)\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.4.3.1.Add get all tags method\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.4.3.2.Add get all foods by tag method\
-
+&emsp;&emsp;&emsp;&emsp;5.4.4.Add tags route(app-routing)\
+&emsp;&emsp;&emsp;&emsp;5.4.5.Show tag result in Home Component(add else if to activatedRoute.params.subscribe)\
+&emsp;&emsp;&emsp;&emsp;5.4.6.Create Tags Component\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.4.6.1.Add to Home Component(app-tags html tag)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.4.6.2.Add HTML/CSS/TS\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.3.6.2.1.Add empty tag array variable\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.3.6.2.2.Add foodService in constructor and get all tags\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.3.6.2.3.Add div *ngIf="tags" directive\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.3.6.2.4.Add html tag a with *ngFor and routerLink directives\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.3.6.2.5.Add CSS\
 
