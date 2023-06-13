@@ -44,11 +44,11 @@
 &emsp;&emsp;&emsp;&emsp;5.4.6.Create Tags Component\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.4.6.1.Add to Home Component(app-tags html tag)\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.4.6.2.Add HTML/CSS/TS\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.3.6.2.1.Add empty tag array variable\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.3.6.2.2.Add foodService in constructor and get all tags\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.3.6.2.3.Add div *ngIf="tags" directive\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.3.6.2.4.Add html tag a with *ngFor and routerLink directives\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.3.6.2.5.Add CSS\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.4.6.2.1.Add empty tag array variable\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.4.6.2.2.Add foodService in constructor and get all tags\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.4.6.2.3.Add div *ngIf="tags" directive\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.4.6.2.4.Add html tag a with *ngFor and routerLink directives\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.4.6.2.5.Add CSS\
 &emsp;&emsp;5.5.Add Food Page\
 &emsp;&emsp;&emsp;&emsp;5.5.1.Add method to food service(use .find)\
 &emsp;&emsp;&emsp;&emsp;5.5.2.Create Food Page Component\
