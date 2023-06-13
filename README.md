@@ -51,5 +51,11 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.3.6.2.5.Add CSS\
 &emsp;&emsp;5.5.Add Food Page\
 &emsp;&emsp;&emsp;&emsp;5.5.1.Add method to food service(use .find)\
-&emsp;&emsp;&emsp;&emsp;5.5.1.Create Food Page Component\
+&emsp;&emsp;&emsp;&emsp;5.5.2.Create Food Page Component\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.5.2.1.Add food page route(app-routing, component:FoodPageComponent)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.5.2.2.Add empty food variable of type Food\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.5.2.3.Add activatedRoute and foodService in constuctor\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.5.2.4.Use activatedRoute.params.subscribe()\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.5.2.5.Add HTML/CSS (use *ngFor to show origins and tags (add routerLink))\
+&emsp;&emsp;5.6.Add Cart Page\
 
