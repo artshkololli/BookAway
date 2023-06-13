@@ -33,4 +33,11 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.3.4.2.8.Add to input tag [value]="search"\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.3.4.2.9.Add button tag(click="searchBar(s.value)")\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.3.4.2.10.Add CSS\
-&emsp;&emsp;5.4.Add Search Feature\
+&emsp;&emsp;5.4.Add Tag Bar\
+&emsp;&emsp;&emsp;&emsp;5.4.1.Create Tag Model(models folder)\
+&emsp;&emsp;&emsp;&emsp;5.4.2.Add sample tags to data.ts\
+&emsp;&emsp;&emsp;&emsp;5.4.3.Add Food tags service (food.service.ts file)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.4.3.1.Add get all tags method\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.4.3.2.Add get all foods by tag method\
+
+

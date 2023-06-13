@@ -1,4 +1,5 @@
-import { Food } from "./app/shared/models/food";
+import { Food } from "./app/shared/models/Food";
+import { Tag } from "./app/shared/models/tag";
 
 export const sample_foods:Food[]=[
   {
@@ -32,6 +33,16 @@ export const sample_foods:Food[]=[
     origins:['Italy'],
     stars:4.8,
     imageUrl:'assets/food-3.jpg',
-    tags:['Sauce','Pasta','Carbonara'],
+    tags:['Sauce','Pasta','Lunch','SlowFood'],
   },
 ];
+
+export const sample_tags:Tag[]=[
+  {name:'All',count:6},
+  {name:'FastFood',count:1},
+  {name:'Pizza',count:1},
+  {name:'Lunch',count:2},
+  {name:'SlowFood',count:1},
+  {name:'Sauce',count:1},
+  {name:'Pasta',count:1},
+]
