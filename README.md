@@ -23,3 +23,13 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 2.3.3.4.Create Search Component\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 2.3.3.4.1.Add to Home Component\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 2.3.3.4.2.Add HTML/CSS/TS\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 2.3.3.4.2.1.Add empty search variable\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 2.3.3.4.2.2.Add activatedRoute in constructor\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 2.3.3.4.2.3.Add private router:Router in constructor\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 2.3.3.4.2.4.Use activatedRoute.params.subscribe()\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 2.3.3.4.2.5.Create searchBar function(navigateByUrl)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 2.3.3.4.2.6.Add input tag(#s reference template)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 2.3.3.4.2.6.Add to input tag (keyup.enter)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 2.3.3.4.2.6.Add to input tag [value]="search"\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 2.3.3.4.2.7.Add button tag(#s referemce,keyup.enter)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 2.3.3.4.2.7.Add CSS\
