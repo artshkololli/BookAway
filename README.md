@@ -49,4 +49,7 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.3.6.2.3.Add div *ngIf="tags" directive\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.3.6.2.4.Add html tag a with *ngFor and routerLink directives\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.3.6.2.5.Add CSS\
+&emsp;&emsp;5.5.Add Food Page\
+&emsp;&emsp;&emsp;&emsp;5.5.1.Add method to food service(use .find)\
+&emsp;&emsp;&emsp;&emsp;5.5.1.Create Food Page Component\
 
