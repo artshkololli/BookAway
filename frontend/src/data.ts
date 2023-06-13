@@ -25,13 +25,13 @@ export const sample_foods:Food[]=[
   },
   {
     id:'3',
-    name:'Carbonara Pasta',
+    name:'Pasta Carbonara',
     price:9,
     cookTime:'30-40mins',
     favorite:true,
     origins:['Italy'],
     stars:4.8,
     imageUrl:'assets/food-3.jpg',
-    tags:['Sauce', 'Pasta','Carbonara'],
+    tags:['Sauce','Pasta','Carbonara'],
   },
 ];
