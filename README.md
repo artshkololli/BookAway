@@ -75,5 +75,7 @@
 &emsp;&emsp;&emsp;&emsp;5.6.15.Add private getCartFromLocalStorage():Cart method\
 &emsp;&emsp;&emsp;&emsp;5.6.16.Use setCartToLocalStorage method on all methods except getCartObservable()\
 &emsp;&emsp;&emsp;&emsp;5.6.17.Add private cartService:CartService and router:Router to Food Page constructor\
-
+&emsp;&emsp;&emsp;&emsp;5.6.18.Add addToCart method in Food Page\
+&emsp;&emsp;&emsp;&emsp;5.6.19.Add addToCart method to the button in Food Page Component\
+&emsp;&emsp;&emsp;&emsp;5.6.20.Create cart-page Component\
 
