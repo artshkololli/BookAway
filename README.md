@@ -78,4 +78,7 @@
 &emsp;&emsp;&emsp;&emsp;5.6.18.Add addToCart method in Food Page\
 &emsp;&emsp;&emsp;&emsp;5.6.19.Add addToCart method to the button in Food Page Component\
 &emsp;&emsp;&emsp;&emsp;5.6.20.Create cart-page Component\
+&emsp;&emsp;&emsp;&emsp;5.6.21.Add Route for cart-page(app-routing)\
+&emsp;&emsp;&emsp;&emsp;5.6.22.Add private cartService in cart-page constructor and use .subscribe method\
+&emsp;&emsp;&emsp;&emsp;5.6.23.Add removeFromCart and changeQuantity methods\
 
