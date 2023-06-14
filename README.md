@@ -81,4 +81,9 @@
 &emsp;&emsp;&emsp;&emsp;5.6.21.Add Route for cart-page(app-routing)\
 &emsp;&emsp;&emsp;&emsp;5.6.22.Add private cartService in cart-page constructor and use .subscribe method\
 &emsp;&emsp;&emsp;&emsp;5.6.23.Add removeFromCart and changeQuantity methods\
+&emsp;&emsp;&emsp;&emsp;5.6.24.Create title Component in partials folder\
+&emsp;&emsp;&emsp;&emsp;5.6.25.Add app-title to cart-page\
+&emsp;&emsp;&emsp;&emsp;5.6.26.Add @Input to title component(title! , margin? , fontSize? inputs)\
+
+
 
