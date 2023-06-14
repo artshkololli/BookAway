@@ -67,6 +67,11 @@
 &emsp;&emsp;&emsp;&emsp;5.6.7.Add removeFromCart Method (use .filter())\
 &emsp;&emsp;&emsp;&emsp;5.6.8.Add clearCart and changeQuantity Method (use .find())\
 &emsp;&emsp;&emsp;&emsp;5.6.9.Add getCartObservable Method (return this.carSubject.asObservable())\
-&emsp;&emsp;&emsp;&emsp;5.6.9.Import Observable from rxjs\
-&emsp;&emsp;&emsp;&emsp;5.6.10.Add to Cart Button in Food Page\
+&emsp;&emsp;&emsp;&emsp;5.6.10.Import Observable from rxjs\
+&emsp;&emsp;&emsp;&emsp;5.6.11.Add private setCartToLocalStorage():void method\
+&emsp;&emsp;&emsp;&emsp;5.6.12.Get totalPrice and totalCount using .reduce() method\
+&emsp;&emsp;&emsp;&emsp;5.6.13.Use JSON.Stringify on this.cart to set the Cart to localStorage\
+&emsp;&emsp;&emsp;&emsp;5.6.14.Use this.cartSubject.next(this.cart)\
+&emsp;&emsp;&emsp;&emsp;5.6.15.Add private getCartFromLocalStorage():Cart method\
+&emsp;&emsp;&emsp;&emsp;5.6.16.Add to Cart Button in Food Page\
 
