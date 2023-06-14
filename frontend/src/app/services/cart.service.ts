@@ -22,8 +22,7 @@ export class CartService {
   }
 
   removeFromCart(foodId:string):void{
-    this.cart.items=this.cart.items;
-    this.cart.items=this.cart.items.filter(item=>item.food.id===foodId);
+    this.cart.items=this.cart.items.filter(item=>item.food.id!=foodId);
     this.setCartToLocalStorage();
   }
 
@@ -44,6 +43,10 @@ export class CartService {
 
   getCartObservable():Observable<Cart>{
     return this.cartSubject.asObservable();
+  }
+
+  getCart():Cart{
+    return this.cartSubject.value;
   }
 
   private setCartToLocalStorage():void{

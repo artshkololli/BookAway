@@ -9,7 +9,7 @@ const routes: Routes = [
   {path:'search/:search',component:HomeComponent},
   {path:'tag/:tag',component:HomeComponent},
   {path:'food/:id',component:FoodPageComponent},
-  {path:'cart-page/:id',component:CartPageComponent},
+  {path:'cart-page',component:CartPageComponent},
 ];
 
 @NgModule({
