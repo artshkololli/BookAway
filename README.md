@@ -58,4 +58,11 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.5.2.4.Use activatedRoute.params.subscribe()\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.5.2.5.Add HTML/CSS (use *ngFor to show origins and tags (add routerLink))\
 &emsp;&emsp;5.6.Add Cart Page\
+&emsp;&emsp;&emsp;&emsp;5.6.1.Create Cart and CartItem Models\
+&emsp;&emsp;&emsp;&emsp;5.6.2.Add Cart service(ng g s services/cart in terminal)\
+&emsp;&emsp;&emsp;&emsp;5.6.3.create private cart:Cart=new Cart()\
+&emsp;&emsp;&emsp;&emsp;5.6.4.create private cartSubject:BehaviorSubject<Cart>=new BehaviorSubject(this.cart)\
+&emsp;&emsp;&emsp;&emsp;5.6.5.import BehaviorSubject from rxjs\
+&emsp;&emsp;&emsp;&emsp;5.6.6.Add addToCart Method (use .find() and .push())\
+&emsp;&emsp;&emsp;&emsp;5.6.7.Add to Cart Button in Food Page\
 
