@@ -85,6 +85,10 @@
 &emsp;&emsp;&emsp;&emsp;5.6.25.Add app-title to cart-page\
 &emsp;&emsp;&emsp;&emsp;5.6.26.Add @Input to title component(title! , margin? , fontSize? inputs)\
 &emsp;&emsp;&emsp;&emsp;5.6.27.Use inputs in title component html(use [ngStyle] for margin and fontsize)\
-&emsp;&emsp;&emsp;&emsp;5.6.27.Add CSS to title component\
+&emsp;&emsp;&emsp;&emsp;5.6.28.Add CSS to title component\
+&emsp;&emsp;&emsp;&emsp;5.6.29.Show cartItems in cart page\
+&emsp;&emsp;&emsp;&emsp;5.6.30.Use select tag for quantity selection(use #quantitySelect on tag)\
+&emsp;&emsp;&emsp;&emsp;5.6.31.Show price of cartItems\
+&emsp;&emsp;&emsp;&emsp;5.6.32.Add Remove button\
 
 
