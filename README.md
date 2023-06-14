@@ -90,5 +90,7 @@
 &emsp;&emsp;&emsp;&emsp;5.6.30.Use select tag for quantity selection(use #quantitySelect on tag)\
 &emsp;&emsp;&emsp;&emsp;5.6.31.Show price of cartItems\
 &emsp;&emsp;&emsp;&emsp;5.6.32.Add Remove button\
+&emsp;&emsp;&emsp;&emsp;5.6.33.Add Checkout with totalCount and totalPrice in cart page\
+&emsp;&emsp;&emsp;&emsp;5.6.34.Add CSS\
 
 
