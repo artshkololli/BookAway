@@ -64,5 +64,6 @@
 &emsp;&emsp;&emsp;&emsp;5.6.4.create private cartSubject:BehaviorSubject<Cart>=new BehaviorSubject(this.cart)\
 &emsp;&emsp;&emsp;&emsp;5.6.5.import BehaviorSubject from rxjs\
 &emsp;&emsp;&emsp;&emsp;5.6.6.Add addToCart Method (use .find() and .push())\
-&emsp;&emsp;&emsp;&emsp;5.6.7.Add to Cart Button in Food Page\
+&emsp;&emsp;&emsp;&emsp;5.6.7.Add removeFromCart Method (use .filter())\
+&emsp;&emsp;&emsp;&emsp;5.6.8.Add to Cart Button in Food Page\
 
