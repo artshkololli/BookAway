@@ -60,7 +60,7 @@
 &emsp;&emsp;5.6.Add Cart Page\
 &emsp;&emsp;&emsp;&emsp;5.6.1.Create Cart and CartItem Models\
 &emsp;&emsp;&emsp;&emsp;5.6.2.Add Cart service(ng g s services/cart in terminal)\
-&emsp;&emsp;&emsp;&emsp;5.6.3.Create private cart:Cart=new Cart()\
+&emsp;&emsp;&emsp;&emsp;5.6.3.Create private cart:Cart=new Cart(Changed to this.getCartFromLocalStorage() later)\
 &emsp;&emsp;&emsp;&emsp;5.6.4.Create private cartSubject:BehaviorSubject<Cart>=new BehaviorSubject(this.cart)\
 &emsp;&emsp;&emsp;&emsp;5.6.5.Import BehaviorSubject from rxjs\
 &emsp;&emsp;&emsp;&emsp;5.6.6.Add addToCart Method (use .find() and .push())\
@@ -73,5 +73,7 @@
 &emsp;&emsp;&emsp;&emsp;5.6.13.Use JSON.Stringify on this.cart to set the Cart to localStorage\
 &emsp;&emsp;&emsp;&emsp;5.6.14.Use this.cartSubject.next(this.cart)\
 &emsp;&emsp;&emsp;&emsp;5.6.15.Add private getCartFromLocalStorage():Cart method\
-&emsp;&emsp;&emsp;&emsp;5.6.16.Add to Cart Button in Food Page\
+&emsp;&emsp;&emsp;&emsp;5.6.16.Use setCartToLocalStorage method on all methods except getCartObservable()\
+&emsp;&emsp;&emsp;&emsp;5.6.17.Add private cartService:CartService and router:Router to Food Page constructor\
+
 
