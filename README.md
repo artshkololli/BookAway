@@ -95,6 +95,8 @@
 &emsp;&emsp;&emsp;&emsp;5.6.35.Add cartService to header constuctor and show quantity in header component\
 &emsp;&emsp;5.7.Add Not Found Page\
 &emsp;&emsp;&emsp;&emsp;5.7.1.Create not-found Component\
-&emsp;&emsp;&emsp;&emsp;5.7.1.Add app-not-found to cart-page component\
+&emsp;&emsp;&emsp;&emsp;5.7.2.Add app-not-found to cart-page component\
+&emsp;&emsp;&emsp;&emsp;5.7.3.Add visible,notFoundMessage,resetLinkText,resetLinkRoute @Input in not-found class\
+&emsp;&emsp;&emsp;&emsp;5.7.4.Add app-not-found to cart-page component\
 
 
