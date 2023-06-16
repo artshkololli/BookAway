@@ -107,8 +107,10 @@
 &emsp;&emsp;6.4.Copy data.ts to backend/src(change array names to any)\
 &emsp;&emsp;6.5.Install express cors\
 &emsp;&emsp;6.6.Create server.ts file\
-&emsp;&emsp;6.7.install types@express and import express in server.ts file\
-&emsp;&emsp;6.8.install types@cors and import cors in server.ts file\
+&emsp;&emsp;&emsp;&emsp;6.6.1.Install types@express and import express in server.ts file\
+&emsp;&emsp;&emsp;&emsp;6.6.2.Install types@cors and import cors in server.ts file\
+&emsp;&emsp;&emsp;&emsp;6.8.3.Create express application(app=express()), use app.use,app.get,app.listen\
+&emsp;&emsp;&emsp;&emsp;6.8.4.Install ts-node and nodemon(use --save-dev for both)\
 
 
 
