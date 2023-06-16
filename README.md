@@ -3,7 +3,7 @@
 &emsp;2.Create Angular App\
 &emsp;3.Create project folder\
 &emsp;4.Install @angular/cli\
-&emsp;5.Create Frontend\
+&emsp;5.Create Frontend folder\
 &emsp;&emsp;5.1.Add Header\
 &emsp;&emsp;&emsp;&emsp;5.1.1.Create Header Component\
 &emsp;&emsp;&emsp;&emsp;5.1.2.Add HTML/CSS\
@@ -100,6 +100,9 @@
 &emsp;&emsp;&emsp;&emsp;5.7.4.Add @input in cart-page component (inside app-not-found)\
 &emsp;&emsp;&emsp;&emsp;5.7.5.Add CSS\
 &emsp;&emsp;&emsp;&emsp;5.7.6.Add app-not-found to all pages\
-&emsp;6.Create Backend\
+&emsp;6.Create Backend folder\
+&emsp;&emsp;6.1.Use npm init -y in terminal and install Typescript\
+&emsp;&emsp;6.2.Create a tsconfig.json file\
+
 
 
