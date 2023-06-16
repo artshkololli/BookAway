@@ -111,6 +111,7 @@
 &emsp;&emsp;&emsp;&emsp;6.6.2.Install types@cors and import cors in server.ts file\
 &emsp;&emsp;&emsp;&emsp;6.8.3.Create express application(app=express()), use app.use,app.get,app.listen\
 &emsp;&emsp;&emsp;&emsp;6.8.4.Install ts-node and nodemon(use --save-dev for both)\
+&emsp;&emsp;&emsp;&emsp;6.8.4.Add a start script in package.json(value of start is "cd src && nodemon server.ts")\
 
 
 
