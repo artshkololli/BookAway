@@ -103,6 +103,7 @@
 &emsp;6.Create Backend folder\
 &emsp;&emsp;6.1.Use npm init -y in terminal and install Typescript\
 &emsp;&emsp;6.2.Create a tsconfig.json file\
+&emsp;&emsp;6.3.Create src folder and .gitignore file\
 
 
 
