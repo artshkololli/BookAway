@@ -115,6 +115,7 @@
 &emsp;&emsp;&emsp;&emsp;6.8.5.Make api requests for sample_foods,searchTerm,tags,tagName,foodId\
 &emsp;&emsp;6.7.Create constants folder in shared folder in frontend,create urls.ts\
 &emsp;&emsp;&emsp;&emsp;6.7.1.add BASE_URL="backend url",FOODS,FOODS_TAGS,FOOD_BY_SEARCH,FOODS_BY_ID(add _URL)\
+&emsp;&emsp;6.8.Add HttpClient Module(import in app.module.ts)\
 
 
 
