@@ -104,6 +104,10 @@
 &emsp;&emsp;6.1.Use npm init -y in terminal and install Typescript\
 &emsp;&emsp;6.2.Create a tsconfig.json file\
 &emsp;&emsp;6.3.Create src folder and .gitignore file\
+&emsp;&emsp;6.3.Copy data.ts to backend/src(change array names to any)\
+&emsp;&emsp;6.3.Install express cors\
+&emsp;&emsp;6.3.Create server.ts file\
+&emsp;&emsp;6.3.install types@express and import express in server.ts file\
 
 
 
