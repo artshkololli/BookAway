@@ -118,6 +118,8 @@
 &emsp;&emsp;6.8.Add HttpClient Module(import in app.module.ts)\
 &emsp;&emsp;6.8.1.:Inject HttpClient in food.service constructor(private http)\
 &emsp;&emsp;6.8.2.:Use Observable for methods(<Food[]>,<Tag[]>,<Food>)\
+&emsp;&emsp;6.8.3.:Add let foodsObservable:Observable<Food[]> in home component constructor(replace this.foods)\
+&emsp;&emsp;6.8.4.:Use .subscribe() at the end of else statement\
 
 
 
