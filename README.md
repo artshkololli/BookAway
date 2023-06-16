@@ -121,7 +121,7 @@
 &emsp;&emsp;6.9.Add let foodsObservable:Observable<Food[]> in home component constructor(replace this.foods)\
 &emsp;&emsp;6.10.Use .subscribe() at the end of else statement\
 &emsp;&emsp;6.11.For food-page and tags components remove this.foods and subscribe to the method\
-&emsp;&emsp;6.12.Change food.id to just food in html file\
+&emsp;&emsp;6.12.Change food.id to just food in food page html file\
 &emsp;&emsp;6.13.Adding Login\
 
 

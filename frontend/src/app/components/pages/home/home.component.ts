@@ -15,8 +15,8 @@ export class HomeComponent implements OnInit{
   constructor(private foodService:FoodService,activatedRoute:ActivatedRoute){
     let foodsObservable:Observable<Food[]>
     activatedRoute.params.subscribe((params)=>{
-      if(params.search){
-        foodsObservable=this.foodService.getAllFoodsBySearch(params.search);
+      if(params.searchTerm){
+        foodsObservable=this.foodService.getAllFoodsBySearch(params.searchTerm);
       }else if(params.tag){
         foodsObservable=this.foodService.getAllFoodsByTag(params.tag);
       }else{
