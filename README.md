@@ -113,6 +113,8 @@
 &emsp;&emsp;&emsp;&emsp;6.8.4.Install ts-node and nodemon(use --save-dev for both)\
 &emsp;&emsp;&emsp;&emsp;6.8.5.Add a start script in package.json(value of start is "cd src && nodemon server.ts")\
 &emsp;&emsp;&emsp;&emsp;6.8.5.Make api requests for sample_foods,searchTerm,tags,tagName,foodId\
+&emsp;&emsp;6.7.Create constants folder in shared folder in frontend,create urls.ts\
+&emsp;&emsp;&emsp;&emsp;6.7.1.add BASE_URL="backend url",FOODS,FOODS_TAGS,FOOD_BY_SEARCH,FOODS_BY_ID(add _URL)\
 
 
 
