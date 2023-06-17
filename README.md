@@ -123,6 +123,8 @@
 &emsp;&emsp;6.11.For food-page and tags components remove this.foods and subscribe to the method\
 &emsp;&emsp;6.12.Change food.id to just food in food page html file\
 &emsp;&emsp;6.13.Adding Login\
+&emsp;&emsp;6.13.1.Create login-page Component\
+&emsp;&emsp;6.13.2.Add component to route(app-routing)\
 
 
 
