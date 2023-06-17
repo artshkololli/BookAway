@@ -139,7 +139,9 @@
 &emsp;&emsp;&emsp;&emsp;6.13.14.Add app.post("api/users/login) method in backend server\
 &emsp;&emsp;&emsp;&emsp;6.13.15.Add app.use(express.json) to allow requests with json body on API\
 &emsp;&emsp;&emsp;&emsp;6.13.16.Add sample_users in data.ts\
-&emsp;&emsp;&emsp;&emsp;6.13.17.Use .find() method to find user in app.post()\
+&emsp;&emsp;&emsp;&emsp;6.13.17.Use .find() method to find user in app.post() , if user exist send request\
+&emsp;&emsp;&emsp;&emsp;6.13.18.Install jsonwebtoken(JWT) library and @types/jsonwebtoken to generate tokens\
+&emsp;&emsp;&emsp;&emsp;6.13.19.Create generateTokenResponse=(user:any) const (use jwt.sign())\
 
 
 
