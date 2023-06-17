@@ -138,6 +138,8 @@
 &emsp;&emsp;&emsp;&emsp;6.13.13.Add Login API\
 &emsp;&emsp;&emsp;&emsp;6.13.14.Add app.post("api/users/login) method in backend server\
 &emsp;&emsp;&emsp;&emsp;6.13.15.Add app.use(express.json) to allow requests with json body on API\
+&emsp;&emsp;&emsp;&emsp;6.13.16.Add sample_users in data.ts\
+&emsp;&emsp;&emsp;&emsp;6.13.17.Use .find() method to find user in app.post()\
 
 
 

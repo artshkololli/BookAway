@@ -1,6 +1,6 @@
 import express from "express";
 import cors from "cors";
-import { sample_foods, sample_tags } from "./data";
+import { sample_foods, sample_tags, sample_users } from "./data";
 
 const app = express();
 app.use(express.json());
@@ -39,7 +39,8 @@ app.get("/api/foods/:foodId", (req, res) => {
 })
 
 app.post("api/users/login", (req,res)=>{
-  const body=req.body;
+  const {email,password}=req.body;
+  const user=sample_users.find(user=>user.email ===email && user.password===password);
 })
 
 const port = 5000;
