@@ -135,6 +135,7 @@
 &emsp;&emsp;&emsp;&emsp;6.13.10.Add a form in login-page (use [formGroup] and (ngSubmit))\
 &emsp;&emsp;&emsp;&emsp;6.13.11.Add an "error-list" div and show when input is invalid for email and password\
 &emsp;&emsp;&emsp;&emsp;6.13.12.Use *ngIf to check if email and password is valid , show message if its not\
+&emsp;&emsp;&emsp;&emsp;6.13.13.Add Login API\
 
 
 
