@@ -131,6 +131,9 @@
 &emsp;&emsp;&emsp;&emsp;6.13.6.Add email and password controls for loginForm(use formBuilder.group())\
 &emsp;&emsp;&emsp;&emsp;6.13.7.Make a get fc() method that returns this.loginForm.controls(fc=form control)\
 &emsp;&emsp;&emsp;&emsp;6.13.8.Create submit() method to check if form is invalid and to check form values\
+&emsp;&emsp;&emsp;&emsp;6.13.9.Add ReactiveFormsModule to app.module imports\
+&emsp;&emsp;&emsp;&emsp;6.13.10.Add a form in login-page (use [formGroup] and (ngSubmit))\
+&emsp;&emsp;&emsp;&emsp;6.13.11.\
 
 
 
