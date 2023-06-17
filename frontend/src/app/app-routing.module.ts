@@ -8,6 +8,7 @@ import { LoginPageComponent } from './components/pages/login-page/login-page.com
 const routes: Routes = [
   {path:'',component:HomeComponent},
   {path:'search/:search',component:HomeComponent},
+  {path:'search/:searchTerm',component:HomeComponent},
   {path:'tag/:tag',component:HomeComponent},
   {path:'food/:id',component:FoodPageComponent},
   {path:'cart-page',component:CartPageComponent},
