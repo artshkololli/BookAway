@@ -15,7 +15,16 @@ export class LoginPageComponent implements OnInit{
 
   ngOnInit(): void {
     this.loginForm=this.formBuilder.group({
-      email:['',[Validators.required,Validators.email]]
+      email:['',[Validators.required,Validators.email]],
+      password:['',Validators.required],
     })
+  }
+  get fc(){
+    return this.loginForm.controls;
+  }
+  submit(){
+    this.isSubmitted=true;
+    if(this.loginForm.invalid) return;
+    alert(`email: ${this.fc.email.value} , password: ${this.fc.password.value}`);
   }
 }

@@ -128,6 +128,9 @@
 &emsp;&emsp;&emsp;&emsp;6.13.3.Import FormGroup,FormBuilder,Validators from @angular/forms\
 &emsp;&emsp;&emsp;&emsp;6.13.4.Add a loginForm of type FormGroup , add private formBuilder in constructor\
 &emsp;&emsp;&emsp;&emsp;6.13.5.Use Validators on loginForm inside ngOnInit method\
+&emsp;&emsp;&emsp;&emsp;6.13.6.Add email and password controls for loginForm(use formBuilder.group())\
+&emsp;&emsp;&emsp;&emsp;6.13.7.Make a get fc() method that returns this.loginForm.controls(fc=form control)\
+&emsp;&emsp;&emsp;&emsp;6.13.8.Create submit() method to check if form is invalid and to check form values\
 
 
 
