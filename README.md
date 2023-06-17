@@ -133,7 +133,8 @@
 &emsp;&emsp;&emsp;&emsp;6.13.8.Create submit() method to check if form is invalid and to check form values\
 &emsp;&emsp;&emsp;&emsp;6.13.9.Add ReactiveFormsModule to app.module imports\
 &emsp;&emsp;&emsp;&emsp;6.13.10.Add a form in login-page (use [formGroup] and (ngSubmit))\
-&emsp;&emsp;&emsp;&emsp;6.13.11.\
+&emsp;&emsp;&emsp;&emsp;6.13.11.Add an "error-list" div and show when input is invalid for email and password\
+&emsp;&emsp;&emsp;&emsp;6.13.12.Use *ngIf to check if email and password is valid , show message if its not\
 
 
 
