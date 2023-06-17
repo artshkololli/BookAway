@@ -123,8 +123,11 @@
 &emsp;&emsp;6.11.For food-page and tags components remove this.foods and subscribe to the method\
 &emsp;&emsp;6.12.Change food.id to just food in food page html file\
 &emsp;&emsp;6.13.Adding Login\
-&emsp;&emsp;6.13.1.Create login-page Component\
-&emsp;&emsp;6.13.2.Add component to route(app-routing)\
+&emsp;&emsp;&emsp;&emsp;6.13.1.Create login-page Component\
+&emsp;&emsp;&emsp;&emsp;6.13.2.Add component to route(app-routing)\
+&emsp;&emsp;&emsp;&emsp;6.13.3.Import FormGroup,FormBuilder,Validators from @angular/forms\
+&emsp;&emsp;&emsp;&emsp;6.13.4.Add a loginForm of type FormGroup , add private formBuilder in constructor\
+&emsp;&emsp;&emsp;&emsp;6.13.5.Use Validators on loginForm inside ngOnInit method\
 
 
 
