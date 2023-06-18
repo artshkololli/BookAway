@@ -165,6 +165,13 @@
 &emsp;&emsp;&emsp;&emsp;6.14.19.Create private getUserFromLocalStorage():User method on user.service\
 &emsp;&emsp;&emsp;&emsp;6.14.20.Add const USER_KEY='User' in user.service(between imports and @injectable)\
 &emsp;&emsp;&emsp;&emsp;6.14.21.Change new User() to this.getUserFromLocalStorage() in private userSubject\
+&emsp;&emsp;&emsp;&emsp;6.14.22.Add private userService in header component constructor , add user!:User variable\
+&emsp;&emsp;&emsp;&emsp;6.14.23.Put {{user.name}} in <a routerLink="/dashboard"> at header component html\
+&emsp;&emsp;&emsp;&emsp;6.14.23.Create isAuth() that returns this.user.token\
+&emsp;&emsp;&emsp;&emsp;6.14.23.Add *ngIf="!isAuth" to first <li>tag in header component\
+&emsp;&emsp;&emsp;&emsp;6.14.23.Create logout method in user.service\
+&emsp;&emsp;&emsp;&emsp;6.14.23.Create logout method in header component.ts\
+&emsp;&emsp;&emsp;&emsp;6.14.23.Add logout method to lougout link (a tag) add *ngIf="isAuth" to that li tag\
 
 
 
