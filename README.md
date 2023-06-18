@@ -143,6 +143,8 @@
 &emsp;&emsp;&emsp;&emsp;6.13.18.Install jsonwebtoken(JWT) library and @types/jsonwebtoken to generate tokens\
 &emsp;&emsp;&emsp;&emsp;6.13.19.Create generateTokenResponse=(user:any) const (use jwt.sign())\
 &emsp;&emsp;&emsp;&emsp;6.13.20.Try POST request with Postman\
+&emsp;&emsp;6.14.Create User Service\
+&emsp;&emsp;&emsp;&emsp;6.14.1.Create User model (shared/models folder)\
 
 
 
