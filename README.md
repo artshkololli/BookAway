@@ -158,6 +158,9 @@
 &emsp;&emsp;&emsp;&emsp;6.14.12.Import ToastrModule.forRoot({timeOut,positionClass,newestOnTop}) in imports:[]\
 &emsp;&emsp;&emsp;&emsp;6.14.13.Add private toastrService:ToastrService , use toastrService.success in login()\
 &emsp;&emsp;&emsp;&emsp;6.14.14.Add "node_modules/ngx-toastr/toastr.css" to styles in angular.json file\
+&emsp;&emsp;&emsp;&emsp;6.14.15.Add private userService:UserService in login-page constructor, use it in submit()\
+&emsp;&emsp;&emsp;&emsp;6.14.16.Add private activatedRoute:ActivatedRoute,private router:Route same constructor\
+&emsp;&emsp;&emsp;&emsp;6.14.17.Add this.returnUrl=this.activatedRoute.snapshot.queryParams.returnUrl to ngOnInit\
 
 
 
