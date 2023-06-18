@@ -155,7 +155,9 @@
 &emsp;&emsp;&emsp;&emsp;6.14.9.Use .pipe(tap()) method on login post request\
 &emsp;&emsp;&emsp;&emsp;6.14.10.Install ngx-toastr module\
 &emsp;&emsp;&emsp;&emsp;6.14.11.Install ngx-toastr module , import ToastrModule and BrowserAnimation (app.module)\
-&emsp;&emsp;&emsp;&emsp;6.14.12.Add "node_modules/ngx-toastr/toastr.css" to styles in angular.json file\
+&emsp;&emsp;&emsp;&emsp;6.14.12.Import ToastrModule.forRoot({timeOut,positionClass,newestOnTop}) in imports:[]\
+&emsp;&emsp;&emsp;&emsp;6.14.13.Add private toastrService:ToastrService , use toastrService.success in login()\
+&emsp;&emsp;&emsp;&emsp;6.14.14.Add "node_modules/ngx-toastr/toastr.css" to styles in angular.json file\
 
 
 
