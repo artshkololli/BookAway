@@ -152,6 +152,10 @@
 &emsp;&emsp;&emsp;&emsp;6.14.6.Create login(userLogin:IUserLogin):Observable<User> method and make post request\
 &emsp;&emsp;&emsp;&emsp;6.14.7.Add private http:HttpClient in constructor\
 &emsp;&emsp;&emsp;&emsp;6.14.8.Add USER_LOGIN_URL to urls.ts file\
+&emsp;&emsp;&emsp;&emsp;6.14.9.Use .pipe(tap()) method on login post request\
+&emsp;&emsp;&emsp;&emsp;6.14.10.Install ngx-toastr module\
+&emsp;&emsp;&emsp;&emsp;6.14.11.Install ngx-toastr module , import ToastrModule and BrowserAnimation (app.module)\
+
 
 
 

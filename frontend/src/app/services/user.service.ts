@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { BehaviorSubject, Observable } from 'rxjs';
+import { BehaviorSubject, Observable, tap } from 'rxjs';
 import { User } from '../shared/models/User';
 import { IUserLogin } from '../shared/interfaces/IuserLogin';
 import { HttpClient } from '@angular/common/http';
@@ -18,7 +18,16 @@ export class UserService{
   }
 
   login(userLogin:IUserLogin):Observable<User>{
-    return this.http.post<User>(USER_LOGIN_URL,userLogin);
+    return this.http.post<User>(USER_LOGIN_URL,userLogin).pipe(
+      tap({
+        next:(user)=>{
+
+        },
+        error:(errorResponse)=>{
+
+        }
+      })
+    );
   }
 
 }
