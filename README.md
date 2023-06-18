@@ -145,6 +145,9 @@
 &emsp;&emsp;&emsp;&emsp;6.13.20.Try POST request with Postman\
 &emsp;&emsp;6.14.Create User Service\
 &emsp;&emsp;&emsp;&emsp;6.14.1.Create User model (shared/models folder)\
+&emsp;&emsp;&emsp;&emsp;6.14.2.Create private userSubject=BehaviourSubject<User>(new User())\
+&emsp;&emsp;&emsp;&emsp;6.14.3.Create public userObservable=:Observable<User>\
+&emsp;&emsp;&emsp;&emsp;6.14.4.Initialize this.userObservable=this.userSubject.asObservable() in constructor\
 
 
 
