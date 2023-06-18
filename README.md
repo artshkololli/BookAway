@@ -155,6 +155,7 @@
 &emsp;&emsp;&emsp;&emsp;6.14.9.Use .pipe(tap()) method on login post request\
 &emsp;&emsp;&emsp;&emsp;6.14.10.Install ngx-toastr module\
 &emsp;&emsp;&emsp;&emsp;6.14.11.Install ngx-toastr module , import ToastrModule and BrowserAnimation (app.module)\
+&emsp;&emsp;&emsp;&emsp;6.14.12.Add "node_modules/ngx-toastr/toastr.css" to styles in angular.json file\
 
 
 
