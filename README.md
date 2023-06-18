@@ -161,6 +161,10 @@
 &emsp;&emsp;&emsp;&emsp;6.14.15.Add private userService:UserService in login-page constructor, use it in submit()\
 &emsp;&emsp;&emsp;&emsp;6.14.16.Add private activatedRoute:ActivatedRoute,private router:Route same constructor\
 &emsp;&emsp;&emsp;&emsp;6.14.17.Add this.returnUrl=this.activatedRoute.snapshot.queryParams.returnUrl to ngOnInit\
+&emsp;&emsp;&emsp;&emsp;6.14.18.Create private setUserToLocalStorage(user:User) method on user.service\
+&emsp;&emsp;&emsp;&emsp;6.14.19.Create private getUserFromLocalStorage():User method on user.service\
+&emsp;&emsp;&emsp;&emsp;6.14.20.Add const USER_KEY='User' in user.service(between imports and @injectable)\
+&emsp;&emsp;&emsp;&emsp;6.14.21.Change new User() to this.getUserFromLocalStorage() in private userSubject\
 
 
 
