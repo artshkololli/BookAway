@@ -201,6 +201,9 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.4.1.Change selector from 'app-default-button' to 'default-button'\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.4.2.Add type,text,bgColor,color,fontSizeRem @Input\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.4.3.Add onClick = new EventEmitter() @Output\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.4.4.Add HMTL (use ngStyle for styles)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.4.5.Add default-button tag to login-page component\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.4.6.Add CSS\
 
 
 
