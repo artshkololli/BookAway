@@ -193,7 +193,10 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.2.7.Add CSS\
 &emsp;&emsp;&emsp;&emsp;6.15.3.Create text-input component(partials folder)\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.3.1.Change selector from 'app-text-input to 'text-input\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.3.2.\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.3.2.Add control!:AbstractControl,showErrorWhen,label,type @Input\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.3.3.Add get formControl method that returns this.control as FormControl\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.3.4.Add input-container tag from login-page to text-input component\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.3.5.Add text-input tag to login-page html (email and password inputs)\
 
 
 

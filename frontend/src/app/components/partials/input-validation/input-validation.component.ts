@@ -16,7 +16,7 @@ export class InputValidationComponent implements OnInit, OnChanges{
   @Input()
   control!:AbstractControl;
   @Input()
-  showErrorWhen:boolean=true;
+  showErrorsWhen:boolean=true;
   errorMessages:string[]=[];
 
   constructor(){}
