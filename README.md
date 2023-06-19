@@ -197,6 +197,10 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.3.3.Add get formControl method that returns this.control as FormControl\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.3.4.Add input-container tag from login-page to text-input component\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.3.5.Add text-input tag to login-page html (email and password inputs)\
+&emsp;&emsp;&emsp;&emsp;6.15.4.Create default-button component(partials folder)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.4.1.Change selector from 'app-default-button' to 'default-button'\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.4.2.Add type,text,bgColor,color,fontSizeRem @Input\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.4.3.Add onClick = new EventEmitter() @Output\
 
 
 
