@@ -9,6 +9,10 @@
           <div *ngIf="fc.email.errors.required">Should not be empty</div>
           <div *ngIf="fc.email.errors.email">Email is not correct</div>
         </div>
+      <input-validation
+        [control]="fc.email"
+        [showErrorWhen]="isSubmitted">
+      </input-validation>
       </input-container>
     <div class="input-container">
       <label>Password</label>

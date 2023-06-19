@@ -188,6 +188,9 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.2.5.Create checkValidation():void method , use .map() to show errors\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.2.6.Add OnChanges interface and check validation(this.checkValidation())\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.2.7.Check validation on status or value changes(use subscribe in OnInit)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.2.7.Show error message in input-validation html (use ngIf and ngFor)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.2.7.Add input-validation tag in login-page html (above input-container)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.2.7.Add CSS\
 
 
 
