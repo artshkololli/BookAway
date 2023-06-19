@@ -191,6 +191,9 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.2.7.Show error message in input-validation html (use ngIf and ngFor)\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.2.7.Add input-validation tag in login-page html (above input-container)\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.2.7.Add CSS\
+&emsp;&emsp;&emsp;&emsp;6.15.3.Create text-input component(partials folder)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.3.1.Change selector from 'app-text-input to 'text-input\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.3.2.\
 
 
 
