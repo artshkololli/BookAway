@@ -204,6 +204,7 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.4.4.Add HMTL (use ngStyle for styles)\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.4.5.Add default-button tag to login-page component\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.4.6.Add CSS\
+&emsp;&emsp;6.16.Connect Login API to MongoDB Atlas\
 
 
 
