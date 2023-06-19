@@ -173,12 +173,14 @@
 &emsp;&emsp;&emsp;&emsp;6.14.27.Create logout method in header component.ts\
 &emsp;&emsp;&emsp;&emsp;6.14.28.Add logout method to logout link (a tag) add *ngIf="isAuth" to that li tag\
 &emsp;&emsp;6.15.Make Components for Login Page\
-&emsp;&emsp;&emsp;&emsp;6.15.1.Create input-container components(partials folder)\
+&emsp;&emsp;&emsp;&emsp;6.15.1.Create input-container component(partials folder)\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.1.1.Add label and bgColor @input to input-container component\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.1.2.Change selector from app-input-container to input-container\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.1.3.Make Html page (use ng-content tag)\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.1.4.Add input-container component to login-page component html\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.1.5.Add input tag and error list(div) inside input-container tag\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.1.6.Add CSS\
+&emsp;&emsp;&emsp;&emsp;6.15.1.Create input-validation component(partials folder)\
 
 
 
