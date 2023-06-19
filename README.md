@@ -180,7 +180,14 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.1.4.Add input-container component to login-page component html\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.1.5.Add input tag and error list(div) inside input-container tag\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.1.6.Add CSS\
-&emsp;&emsp;&emsp;&emsp;6.15.1.Create input-validation component(partials folder)\
+&emsp;&emsp;&emsp;&emsp;6.15.2.Create input-validation component(partials folder)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.2.1.Change selector from 'app-input-validation to input-validation\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.2.2.Add constant VALID_MSG:any={} for required and email(under imports)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.2.3.Add control(type AbstractControl) and showErrorWhen(boolean) @Input\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.2.4.Add errorMessages array\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.2.5.Create checkValidation():void method , use .map() to show errors\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.2.6.Add OnChanges interface and check validation(this.checkValidation())\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.2.7.Check validation on status or value changes(use subscribe in OnInit)\
 
 
 
