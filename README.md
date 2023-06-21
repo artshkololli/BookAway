@@ -225,6 +225,9 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.2.3.Install bcryptjs\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.2.4.Install express-async-handler\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.3.Import dotenv to server and call dotenv.config()\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.4.Create config folder(in src) and a database.config.ts file\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.5.Import connect and connectOptions from mongoose to database.config\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.5.Create dbConnect function(export const) and use it inside server.ts\
 
 
 
