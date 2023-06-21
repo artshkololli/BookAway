@@ -220,6 +220,11 @@
 &emsp;&emsp;&emsp;&emsp;6.16.2.Create MongoDB Atlas account ,Deploy Database and connect to it\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.1.Create .env file (src folder)\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.2.Install packages\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.2.1.Install mongoose\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.2.2.Install dotenv\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.2.3.Install bcryptjs\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.2.4.Install express-async-handler\
+
 
 
 
