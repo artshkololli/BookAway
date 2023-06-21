@@ -224,7 +224,7 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.2.2.Install dotenv\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.2.3.Install bcryptjs\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.2.4.Install express-async-handler\
-
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.3.Import dotenv to server and call dotenv.config()\
 
 
 
