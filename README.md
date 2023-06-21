@@ -205,6 +205,12 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.4.5.Add default-button tag to login-page component\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.15.4.6.Add CSS\
 &emsp;&emsp;6.16.Connect Login API to MongoDB Atlas\
+&emsp;&emsp;&emsp;&emsp;6.16.1.Move APIs into routers\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.1.1.Create routers folder(src folder)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.1.2.Create food.routers.ts in routers folder and put all food apis in it\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.1.3.Move all app.get() methods from server.ts to food.routers(food ones)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.1.3.Create router instance and replace app.get with router.get\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.1.3.Add food.router to server.ts\
 
 
 
