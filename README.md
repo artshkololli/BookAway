@@ -209,8 +209,14 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.1.1.Create routers folder(src folder)\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.1.2.Create food.routers.ts in routers folder and put all food apis in it\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.1.3.Move all app.get() methods from server.ts to food.routers(food ones)\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.1.3.Create router instance and replace app.get with router.get\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.1.3.Add food.router to server.ts\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.1.4.Create router instance and replace app.get with router.get\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.1.5.Remove the "/api/food" part from every router.get()\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.1.6.Add food.router to server.ts\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.1.7.Create user.router.ts folder(routers folder)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.1.8.Put login api and token response methods from server to user.router\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.1.8.Create router instance and replave app.get with router.get\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.1.8.Import jwt from 'jsonwebtoken'\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.1.5.Remove the "/api/users" part from router.get()\
 
 
 
