@@ -1,7 +1,5 @@
 import express from "express";
 import cors from "cors";
-import { sample_foods, sample_tags, sample_users } from "./data";
-import jwt from 'jsonwebtoken';
 import foodRouter from './routers/food.router'
 import userRouter from './routers/user.router'
 

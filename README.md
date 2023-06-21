@@ -217,6 +217,10 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.1.8.Create router instance and replave app.get with router.get\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.1.8.Import jwt from 'jsonwebtoken'\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.1.5.Remove the "/api/users" part from router.get()\
+&emsp;&emsp;&emsp;&emsp;6.16.2.Create MongoDB Atlas account ,Deploy Database and connect to it\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.1.Create .env file (src folder)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.2.Install packages\
+
 
 
 
