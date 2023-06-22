@@ -231,6 +231,10 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.7.Create models folder ,food.models and user.models file (src folder)\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.7.1.Created Food interface , FoodSchema and food model\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.7.2.Created User interface , USerSchema and user model\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.8.Seed the models into database\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.8.1.Import asyncHandler(express) to food and user router\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.8.2.Check count in asyncHandler(use await,.countDocuments)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.8.3.User .create to create model at the end of async\
 
 
 
