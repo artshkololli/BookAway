@@ -227,8 +227,9 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.3.Import dotenv to server and call dotenv.config()\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.4.Create config folder(in src) and a database.config.ts file\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.5.Import connect and connectOptions from mongoose to database.config\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.5.Create dbConnect function(export const) and use it inside server.ts\
-
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.6.Create dbConnect function(export const) and use it inside server.ts\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.7.Create models folder and food.models.ts file (src folder)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.7.1.Created Food interface , FoodSchema and food model\
 
 
 
