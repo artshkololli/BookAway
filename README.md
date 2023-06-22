@@ -233,8 +233,18 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.7.2.Created User interface , USerSchema and user model\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.8.Seed the models into database\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.8.1.Import asyncHandler(express) to food and user router\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.8.2.Check count in asyncHandler(use await,.countDocuments)\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.8.3.User .create to create model at the end of async\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.8.2.Use asyncHandler in router.get()\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.8.4.Check count in asyncHandler(use await,.countDocuments)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.8.5.Use .create() to create model at the end of async\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.9.Use the database instead of data.ts file in code\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.10.Get foods data from database instead of data.ts file(food.router)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.10.1.Change router.get(/) use asyncHandler and use .find()\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.10.2.Change router.get(search),use asyncH ,RegExp, .find()\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.10.3.Change router.get(tags),use asyncH,aggregate(),sort()\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.10.4.Change router.get(tag),use asyncH,.find()\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.10.5.Change router.get(foodId),use asyncH,.findById()\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.11.Get users data from database instead of data.ts file(user.router)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.11.1.Change router.get(login),use asyncH,.findOne()\
 
 
 
