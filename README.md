@@ -253,7 +253,13 @@
 &emsp;&emsp;&emsp;&emsp;6.17.3.Add USER_REGISTER_URL to urls (constants folder)\
 &emsp;&emsp;&emsp;&emsp;6.17.4.Add register method of type Observable < User >(user.service)\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.17.4.1.Use .pipe() and tap() to set user to localStorage and show messages\
-
+&emsp;&emsp;&emsp;&emsp;6.17.5.Create Register Component\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.17.5.1.Add Register component to routes (app-routing)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.17.5.2.Add registerForm:FormGroup,isSubmited=false,returnUrl(register-page)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.17.5.3.Add private formBuilder,userService,activatedRoute,router(construct)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.17.5.4.Use formBuilder.group in ngOnInit method(use Validators to check it)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.17.5.5.Create validators folder and password_match_validator(shared folder)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.17.5.5.1.Add const validator=(form:AbstractControl) method and return it\
 
 
 
