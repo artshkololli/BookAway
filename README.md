@@ -259,7 +259,12 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.17.5.3.Add private formBuilder,userService,activatedRoute,router(construct)\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.17.5.4.Use formBuilder.group in ngOnInit method(use Validators to check it)\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.17.5.5.Create validators folder and password_match_validator(shared folder)\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.17.5.5.1.Add const validator=(form:AbstractControl) method and return it\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.17.5.6.Add const validator=(form:AbstractControl) method and return it\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.17.5.7.Use passwordMatchValidator in on ngOnInit method(register-page)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.17.5.8.Create get fc() and submit() methods\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.17.5.9.Create Register HTML page\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.17.5.10.Add register link to login-page\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.17.5.11.Add CSS to register-page\
 
 
 
