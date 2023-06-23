@@ -253,7 +253,7 @@
 &emsp;&emsp;&emsp;&emsp;6.17.3.Add USER_REGISTER_URL to urls (constants folder)\
 &emsp;&emsp;&emsp;&emsp;6.17.4.Add register method of type Observable < User >(user.service)\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.17.4.1.Use .pipe() and tap() to set user to localStorage and show messages\
-&emsp;&emsp;&emsp;&emsp;6.17.4.Add register method of type Observable < User >(user.service)\
+
 
 
 
