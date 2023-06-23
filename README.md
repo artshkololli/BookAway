@@ -265,6 +265,7 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.17.5.9.Create Register HTML page\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.17.5.10.Add register link to login-page\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.17.5.11.Add CSS to register-page\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.17.5.12.Add minLength and notMatch validator messages(input-validation.ts)\
 
 
 
