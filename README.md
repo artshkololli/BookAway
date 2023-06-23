@@ -245,6 +245,16 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.10.5.Change router.get(foodId),use asyncH,.findById()\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.11.Get users data from database instead of data.ts file(user.router)\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.11.1.Change router.get(login),use asyncH,.findOne()\
+&emsp;&emsp;&emsp;&emsp;6.16.3.Create constants folder and a http_status.ts file for http requests(backend src)\
+&emsp;&emsp;6.17.Create Register Page\
+&emsp;&emsp;&emsp;&emsp;6.17.1.Add register api method(user.router)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.17.1.1.For password encryption use bcryptjs module\
+&emsp;&emsp;&emsp;&emsp;6.17.2.Create IuserRegister interface (shared folder)\
+&emsp;&emsp;&emsp;&emsp;6.17.3.Add USER_REGISTER_URL to urls (constants folder)\
+&emsp;&emsp;&emsp;&emsp;6.17.4.Add register method of type Observable < User >(user.service)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.17.4.1.Use .pipe() and tap() to set user to localStorage and show messages\
+&emsp;&emsp;&emsp;&emsp;6.17.4.Add register method of type Observable < User >(user.service)\
+
 
 
 
