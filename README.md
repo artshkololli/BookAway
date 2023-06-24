@@ -337,6 +337,11 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.15.Add order!:Order @Input\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.16.Create set addressLatLng(latlng:LatLng)and add it to setMarker()\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.17.Add < map [order]="order" >< /map> to checkout-page html\
+&emsp;&emsp;6.20.Add Auth Guard\
+&emsp;&emsp;&emsp;&emsp;6.20.1.Generate Guard , use ng g guard auth/guards/auth\
+&emsp;&emsp;&emsp;&emsp;6.20.2.Add guard to checkout path in app-routing(use canActivate:[AuthGuard])\
+&emsp;&emsp;&emsp;&emsp;6.20.2.Add userService and router to constructor\
+&emsp;&emsp;&emsp;&emsp;6.20.2.If user is not authenticated return to login page\
 
 
 
