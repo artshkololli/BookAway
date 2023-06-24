@@ -277,7 +277,15 @@
 &emsp;&emsp;&emsp;&emsp;6.18.4.Add HTML\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.18.4.1.Add app-loading to app.component.html (on top)\
 &emsp;&emsp;&emsp;&emsp;6.18.5.Add CSS\
-
+&emsp;&emsp;&emsp;&emsp;6.18.6.Add Loading Interceptor(shared folder)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.18.6.1.Add HTTP_INTERCEPTORS in app.module after HTTPCientModule(same line)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.18.6.2.Add HTTP_INTERCEPTORS in providers\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.18.6.2.1.Add provide:H_I,useClass:LoadingInterceptor,multi:true\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.18.6.3.Add var pendingRequests=0 to loading interceptor\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.18.6.4.Add loadingService to constructor\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.18.6.5.Call showLoading() in intercept() and increase pendingRequest by one\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.18.6.6.Create handleHideLoading() method to hide the loading if no requests\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.18.6.7.Use .pipe() and tap() for next.handle(request) method\
 
 
 
