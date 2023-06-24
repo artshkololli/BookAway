@@ -302,6 +302,25 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.3.3.Add table to order-items-list html (use *ngFor)\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.3.4.Add order-items-list [order]="order" tag under form tag in checkout-page\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.3.5.Add CSS\
+&emsp;&emsp;&emsp;&emsp;6.19.4.Add Map to checkout-page\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.1.Add button to createOrder()\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.2.Add Leaflet npm package\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.2.1.Add npm i --save-dev @types/leaflet\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.2.1.Add CSS to angular.json("styles")\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.3.Add AddressLatLng?:LatLng to Order Model\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.4.Create Map Component\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.4.1.Change selector to "map" in map.ts\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.4.2.Add map tag on div "map" in checkout-page\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.4.3.Add HTML to map component(div #map class="map")\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.4.4.Add @ViewChild('map',{static:true}) mapRef!:ElementRef\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.4.5.Add map!:Map\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.4.6.Create initializeMap() method,use map import from leaflet\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.4.7.Add private readonly DEAFAULT_LATLNG:LatLngTuple=[]\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.4.8.Use initializeMap() in ngOnInit()\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.4.9.Add CSS\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.4.10.Create findMyLocation() method\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.4.11.Add a button to html\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.5.Create Map Component\
 
 
 
