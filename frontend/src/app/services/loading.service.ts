@@ -10,6 +10,16 @@ export class LoadingService {
 
   constructor() { }
 
+  showLoading(){
+    this.isLoadingSubject.next(true);
+  }
 
+  hideLoading(){
+    this.isLoadingSubject.next(false);
+  }
+
+  get isLoading(){
+    return this.isLoadingSubject.asObservable();
+  }
 
 }

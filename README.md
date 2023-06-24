@@ -268,10 +268,17 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.17.5.12.Add minLength and notMatch validator messages(input-validation.ts)\
 &emsp;&emsp;6.18.Create Loading Page\
 &emsp;&emsp;&emsp;&emsp;6.18.1.Add Loading image\
-&emsp;&emsp;&emsp;&emsp;6.18.2.Create Loading Component\
-&emsp;&emsp;&emsp;&emsp;6.18.3.Create Loading Service\
-&emsp;&emsp;&emsp;&emsp;6.18.3.1.Add isLoadingSubject local variable to service(use Behaviorsubject< boolean >)\
-1
+&emsp;&emsp;&emsp;&emsp;6.18.2.Create Loading Service\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.18.2.1.Add isLoadingSubject private to service(Behaviorsubject < boolean >)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.18.2.2.Add showLoading and hideLoading methods\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.18.2.3.Add get Loading method (return as type .asObservable())\
+&emsp;&emsp;&emsp;&emsp;6.18.3.Create Loading Component\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.18.3.1.Add isLoading variable and add Loading service to constructor\
+&emsp;&emsp;&emsp;&emsp;6.18.4.Add HTML\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.18.4.1.Add app-loading to app.component.html (on top)\
+&emsp;&emsp;&emsp;&emsp;6.18.5.Add CSS\
+
+
 
 
 
