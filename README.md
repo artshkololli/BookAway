@@ -320,7 +320,23 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.4.9.Add CSS\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.4.10.Create findMyLocation() method\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.4.11.Add a button to html\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.5.Create Map Component\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.5.Create Map Service\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.5.1.Create getCurrentLocation():Observable< LatLngLiteral >\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.5.2.Use navigator.geolocation inside getCurrentLocation()\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.5.3.Add locationService to map.ts constructor\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.5.4.Add getCurrentLocation to findMyLocation()(subscribe to it)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.6.Add private readonly MARKER_ZOOM_LEVEL to map component\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.7.Add private readonly MARKER_ICON to map component(import leaflet icon)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.8.Add currentMarket!:Marker(from leaflet) under map!:Map\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.9.Create setMarker(latlng:LatLngExpression) method\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.10.Use marker(leaflet import) and then .addTo(this.map)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.11.Add this.map.setView in findMyLocation()\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.12.Change console.log to this.setMarker(latlng) in findMyLocation()\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.13.Add on click event to setMarker (use LeafletMouseEvent) in initializeMap\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.14.Add on dragend event to setMarker (use getLangLeng()) in setMarker()\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.15.Add order!:Order @Input\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.16.Create set addressLatLng(latlng:LatLng)and add it to setMarker()\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.17.Add < map [order]="order" >< /map> to checkout-page html\
 
 
 
