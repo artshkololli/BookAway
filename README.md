@@ -266,7 +266,12 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.17.5.10.Add register link to login-page\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.17.5.11.Add CSS to register-page\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.17.5.12.Add minLength and notMatch validator messages(input-validation.ts)\
-
+&emsp;&emsp;6.18.Create Loading Page\
+&emsp;&emsp;&emsp;&emsp;6.18.1.Add Loading image\
+&emsp;&emsp;&emsp;&emsp;6.18.2.Create Loading Component\
+&emsp;&emsp;&emsp;&emsp;6.18.3.Create Loading Service\
+&emsp;&emsp;&emsp;&emsp;6.18.3.1.Add isLoadingSubject local variable to service(use Behaviorsubject< boolean >)\
+1
 
 
 
