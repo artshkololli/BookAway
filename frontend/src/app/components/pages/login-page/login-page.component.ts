@@ -11,21 +11,19 @@ import { UserService } from 'src/app/services/user.service';
 export class LoginPageComponent implements OnInit {
   loginForm!:FormGroup;
   isSubmitted = false;
-  returnUrl='';
-
-  constructor(
-    private formBuilder: FormBuilder,
-    private userService:UserService,
-    private activatedRoute:ActivatedRoute,
-    private router:Router
-  ) {}
+  returnUrl = '';
+  constructor(private formBuilder: FormBuilder
+    , private userService:UserService,
+     private activatedRoute:ActivatedRoute,
+     private router:Router) { }
 
   ngOnInit(): void {
     this.loginForm = this.formBuilder.group({
       email:['', [Validators.required,Validators.email]],
       password:['', Validators.required]
     });
-    this.returnUrl=this.activatedRoute.snapshot.queryParams.returnUrl;
+
+    this.returnUrl = this.activatedRoute.snapshot.queryParams.returnUrl;
   }
 
   get fc(){
@@ -36,14 +34,10 @@ export class LoginPageComponent implements OnInit {
     this.isSubmitted = true;
     if(this.loginForm.invalid) return;
 
-    //removed alert function here
-
-    this.userService.login({
-      email:this.fc.email.value,
-      password:this.fc.password.value
-    }).subscribe(()=>{
-      this.router.navigateByUrl(this.returnUrl);
-    });
+    this.userService.login({email:this.fc.email.value,
+       password: this.fc.password.value}).subscribe(() => {
+         this.router.navigateByUrl(this.returnUrl);
+       });
   }
 
 }
