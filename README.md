@@ -286,6 +286,22 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.18.6.5.Call showLoading() in intercept() and increase pendingRequest by one\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.18.6.6.Create handleHideLoading() method to hide the loading if no requests\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.18.6.7.Use .pipe() and tap() for next.handle(request) method\
+&emsp;&emsp;6.19.Create Checkout Page\
+&emsp;&emsp;&emsp;&emsp;6.19.1.Create Order Model\
+&emsp;&emsp;&emsp;&emsp;6.19.2.Create Order Component\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.2.1.Add component to routing(app-routing)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.2.2.Add order:Order and checkoutForm!:FormGroup in checkout.ts\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.2.3.Add cartService,private formBuilder,userService,and toastrService\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.2.4.Get name,address from currentUser, use formBuilder.group(ngOnInit)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.2.5.Create createOrder method\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.2.6.Add HTML\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.2.7.Add CSS\
+&emsp;&emsp;&emsp;&emsp;6.19.3.Create order-items-list Component(partials folder)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.3.1.Chance selector to order-items-list\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.3.2.Add order!:Orders as @Input on order-items-list.ts\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.3.3.Add table to order-items-list html (use *ngFor)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.3.4.Add order-items-list [order]="order" tag under form tag in checkout-page\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.3.5.Add CSS\
 
 
 
