@@ -399,6 +399,7 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.6.11.Change OnInit with OnChanges\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.6.12.Create showLocationOnReadOnlyMode() method\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.6.13.If (readonly and addressLatLng) then call showLocationOnReadOnlyMode()\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.6.13.Add readonly=true to map tag in payment-page html\
 &emsp;&emsp;6.20.Add Auth Guard\
 &emsp;&emsp;&emsp;&emsp;6.20.1.Generate Guard , use ng g guard auth/guards/auth\
 &emsp;&emsp;&emsp;&emsp;6.20.2.Add guard to checkout path in app-routing(use canActivate:[AuthGuard])\
