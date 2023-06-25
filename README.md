@@ -374,6 +374,17 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.5.2.Export order router\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.5.3.Connect order.router to server.ts\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.6.Add ORDERS_URL,ORDER_CREATE_URL to urls.ts in frontend(constants folder)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.7.Create Order Service\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.7.1.Add HttpClient in constructor\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.7.2.Make create(order:Order) function\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.7.3.Add an auth interceptor and put it in auth folder\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.7.4.Add UserService to constructor\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.7.5.Get current user and if(user.token) request=request.clone()\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.7.6.Add interceptor to app.module providers\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.7.7.Connect order service to createOrder() in checkout-page\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.7.8.Add validation for order address\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.7.9.Add OrderService and Router in checkout-page constructor\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.7.10.Call create() function and subscribe to it\
 &emsp;&emsp;6.20.Add Auth Guard\
 &emsp;&emsp;&emsp;&emsp;6.20.1.Generate Guard , use ng g guard auth/guards/auth\
 &emsp;&emsp;&emsp;&emsp;6.20.2.Add guard to checkout path in app-routing(use canActivate:[AuthGuard])\
