@@ -355,6 +355,25 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.1.8.Export const OrderModel = model ('order' , orderSchema)\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.2.Create order_status.ts file in constants folder\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.2.1.Export enum OrderStatus{NEW,PAYED,SHIPPED,CANCELED,REFUNDED}\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.3.Create order.router file (routers folder)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.3.1.Create order API\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.3.2.Import Router and asyncHandler\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.3.3.Create post request and use deleteOne to replace NEW  order\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.4.Create middleware folder and auth.mid.ts (to check auth of user)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.4.1.Export default(req:any,res:any,next:any) function\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.4.2.Add const token=req.headers.access_token as string;\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.4.3.If !token return res.status(HTTP_UNAUTHORIZED).send()\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.4.4.Add export const HTTP_UNAUTHORIZED=401 in http_status.ts\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.4.5.Use try catch class\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.4.6.Inside try add const decodedUser=verify(token,process.env.)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.4.7.Add id to jwt.sign at generateTokenResponse()(user.router)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.4.8.Return next() after try catch class\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.4.9.Add auth middleware to order.router (router.use(auth))\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.5.Save newOrder and send it to the client(at the end of router.post)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.5.1.Use await newOrder.save() and res.send(newOrder)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.5.2.Export order router\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.5.3.Connect order.router to server.ts\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.6.Add ORDERS_URL,ORDER_CREATE_URL to urls.ts in frontend(constants folder)\
 &emsp;&emsp;6.20.Add Auth Guard\
 &emsp;&emsp;&emsp;&emsp;6.20.1.Generate Guard , use ng g guard auth/guards/auth\
 &emsp;&emsp;&emsp;&emsp;6.20.2.Add guard to checkout path in app-routing(use canActivate:[AuthGuard])\
