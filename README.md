@@ -342,8 +342,8 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.1.1.Import model,Schema and Types from mongoose\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.1.2.Export interface LatLng{lat,lng}\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.1.3.Export const LatLngSchema\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.1.2.Export interface OrderItem{food,price,quantity}\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.1.2.Export const OrderItemSchema\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.1.4.Export interface OrderItem{food,price,quantity}\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.1.5.Export const OrderItemSchema\
 &emsp;&emsp;6.20.Add Auth Guard\
 &emsp;&emsp;&emsp;&emsp;6.20.1.Generate Guard , use ng g guard auth/guards/auth\
 &emsp;&emsp;&emsp;&emsp;6.20.2.Add guard to checkout path in app-routing(use canActivate:[AuthGuard])\
