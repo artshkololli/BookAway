@@ -387,7 +387,18 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.7.10.Call create() function and subscribe to it\
 &emsp;&emsp;&emsp;&emsp;6.19.6.Create Payment Page\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.6.1.Create Payment Component\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.6.1.Add Component to app-routing\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.6.2.Add Component to app-routing\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.6.3.Get new saved order from the current user, user router.get (order router)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.6.4.Add ORDER_NEW_FOR_CURRENT_USER_URL in urls.ts file\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.6.5.Add getNewOrderForCurrentUser():Observable< Order > method(order.service)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.6.6.Add OrderService and Router to payment-page constructor\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.6.7.Subscribe to orderService.getNewOrderForCurrentUser()\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.6.8.Add HTML\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.6.9.Make readonly input for the map\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.6.10.Create get addressLatLng\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.6.11.Change OnInit with OnChanges\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.6.12.Create showLocationOnReadOnlyMode() method\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.6.13.If (readonly and addressLatLng) then call showLocationOnReadOnlyMode()\
 &emsp;&emsp;6.20.Add Auth Guard\
 &emsp;&emsp;&emsp;&emsp;6.20.1.Generate Guard , use ng g guard auth/guards/auth\
 &emsp;&emsp;&emsp;&emsp;6.20.2.Add guard to checkout path in app-routing(use canActivate:[AuthGuard])\
