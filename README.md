@@ -385,6 +385,9 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.7.8.Add validation for order address\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.7.9.Add OrderService and Router in checkout-page constructor\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.7.10.Call create() function and subscribe to it\
+&emsp;&emsp;&emsp;&emsp;6.19.6.Create Payment Page\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.6.1.Create Payment Component\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.6.1.Add Component to app-routing\
 &emsp;&emsp;6.20.Add Auth Guard\
 &emsp;&emsp;&emsp;&emsp;6.20.1.Generate Guard , use ng g guard auth/guards/auth\
 &emsp;&emsp;&emsp;&emsp;6.20.2.Add guard to checkout path in app-routing(use canActivate:[AuthGuard])\
