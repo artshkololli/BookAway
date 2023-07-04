@@ -21,7 +21,6 @@ export class HomeComponent implements OnInit {
         booksObservalbe = this.bookService.getAllBooksByTag(params.tag);
       else
         booksObservalbe = bookService.getAll();
-
         booksObservalbe.subscribe((serverBooks) => {
           this.books = serverBooks;
         })
