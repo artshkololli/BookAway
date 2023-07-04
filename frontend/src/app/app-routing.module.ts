@@ -18,7 +18,7 @@ const routes: Routes = [
   {path:'login',component:LoginPageComponent},
   {path:'register',component:RegisterPageComponent},
   {path:'checkout',component:CheckoutPageComponent}, //,canActivate:[AuthGuard]},
-  {path:'payment',component:OrderPageComponent}, //,canActivate:[AuthGuard]},
+  {path:'orders',component:OrderPageComponent}, //,canActivate:[AuthGuard]},
 ];
 
 @NgModule({
