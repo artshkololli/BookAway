@@ -7,12 +7,12 @@
 &emsp;&emsp;5.1.Add Header\
 &emsp;&emsp;&emsp;&emsp;5.1.1.Create Header Component\
 &emsp;&emsp;&emsp;&emsp;5.1.2.Add HTML/CSS\
-&emsp;&emsp;5.2.List Foods\
-&emsp;&emsp;&emsp;&emsp;5.2.1.Create Food model\
+&emsp;&emsp;5.2.List Books\
+&emsp;&emsp;&emsp;&emsp;5.2.1.Create Book model\
 &emsp;&emsp;&emsp;&emsp;5.2.2.Create data.ts\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.2.2.1.Add sample data\
 &emsp;&emsp;&emsp;&emsp;5.2.3.Add images to assets\
-&emsp;&emsp;&emsp;&emsp;5.2.4.Create Food service\
+&emsp;&emsp;&emsp;&emsp;5.2.4.Create Book service\
 &emsp;&emsp;&emsp;&emsp;5.2.5.Create Home Component\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.2.5.1.Add HTML/CSS/TS\
 &emsp;&emsp;5.3.Add Search Feature\
@@ -36,24 +36,24 @@
 &emsp;&emsp;5.4.Add Tag Bar\
 &emsp;&emsp;&emsp;&emsp;5.4.1.Create Tag Model(models folder)\
 &emsp;&emsp;&emsp;&emsp;5.4.2.Add sample tags to data.ts\
-&emsp;&emsp;&emsp;&emsp;5.4.3.Add Food tags service (food.service.ts file)\
+&emsp;&emsp;&emsp;&emsp;5.4.3.Add Book tags service (book.service.ts file)\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.4.3.1.Add get all tags method\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.4.3.2.Add get all foods by tag method\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.4.3.2.Add get all books by tag method\
 &emsp;&emsp;&emsp;&emsp;5.4.4.Add tags route(app-routing)\
 &emsp;&emsp;&emsp;&emsp;5.4.5.Show tag result in Home Component(add else if to activatedRoute.params.subscribe)\
 &emsp;&emsp;&emsp;&emsp;5.4.6.Create Tags Component\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.4.6.1.Add to Home Component(app-tags html tag)\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.4.6.2.Add HTML/CSS/TS\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.4.6.2.1.Add empty tag array variable\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.4.6.2.2.Add foodService in constructor and get all tags\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.4.6.2.2.Add bookService in constructor and get all tags\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.4.6.2.3.Add div *ngIf="tags" directive\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.4.6.2.4.Add html tag a with *ngFor and routerLink directives\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.4.6.2.5.Add CSS\
-&emsp;&emsp;5.5.Add Food Page\
-&emsp;&emsp;&emsp;&emsp;5.5.1.Add method to food service(use .find)\
-&emsp;&emsp;&emsp;&emsp;5.5.2.Create Food Page Component\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.5.2.1.Add food page route(app-routing, component:FoodPageComponent)\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.5.2.2.Add empty food variable of type Food\
+&emsp;&emsp;5.5.Add Book Page\
+&emsp;&emsp;&emsp;&emsp;5.5.1.Add method to book service(use .find)\
+&emsp;&emsp;&emsp;&emsp;5.5.2.Create Book Page Component\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.5.2.1.Add book page route(app-routing, component:FoodPageComponent)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.5.2.2.Add empty book variable of type Book\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.5.2.3.Add activatedRoute and foodService in constuctor\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.5.2.4.Use activatedRoute.params.subscribe()\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;5.5.2.5.Add HTML/CSS (use *ngFor to show origins and tags (add routerLink))\
@@ -74,9 +74,9 @@
 &emsp;&emsp;&emsp;&emsp;5.6.14.Use this.cartSubject.next(this.cart)\
 &emsp;&emsp;&emsp;&emsp;5.6.15.Add private getCartFromLocalStorage():Cart method\
 &emsp;&emsp;&emsp;&emsp;5.6.16.Use setCartToLocalStorage method on all methods except getCartObservable()\
-&emsp;&emsp;&emsp;&emsp;5.6.17.Add private cartService:CartService and router:Router to Food Page constructor\
-&emsp;&emsp;&emsp;&emsp;5.6.18.Add addToCart method in Food Page\
-&emsp;&emsp;&emsp;&emsp;5.6.19.Add addToCart method to the button in Food Page Component\
+&emsp;&emsp;&emsp;&emsp;5.6.17.Add private cartService:CartService and router:Router to Book Page constructor\
+&emsp;&emsp;&emsp;&emsp;5.6.18.Add addToCart method in Book Page\
+&emsp;&emsp;&emsp;&emsp;5.6.19.Add addToCart method to the button in Book Page Component\
 &emsp;&emsp;&emsp;&emsp;5.6.20.Create cart-page Component\
 &emsp;&emsp;&emsp;&emsp;5.6.21.Add Route for cart-page(app-routing)\
 &emsp;&emsp;&emsp;&emsp;5.6.22.Add private cartService in cart-page constructor and use .subscribe method\
@@ -116,12 +116,12 @@
 &emsp;&emsp;6.7.Create constants folder in shared folder in frontend,create urls.ts\
 &emsp;&emsp;&emsp;&emsp;6.7.1.add BASE_URL="backend url",FOODS,FOODS_TAGS,FOOD_BY_SEARCH,FOODS_BY_ID(add _URL)\
 &emsp;&emsp;6.8.Add HttpClient Module(import in app.module.ts)\
-&emsp;&emsp;&emsp;&emsp;6.8.1.Inject HttpClient in food.service constructor(private http)\
-&emsp;&emsp;&emsp;&emsp;6.8.2.Use Observable for methods(<Food[]>,<Tag[]>,<Food>)\
-&emsp;&emsp;6.9.Add let foodsObservable:Observable<Food[]> in home component constructor(replace this.foods)\
+&emsp;&emsp;&emsp;&emsp;6.8.1.Inject HttpClient in book.service constructor(private http)\
+&emsp;&emsp;&emsp;&emsp;6.8.2.Use Observable for methods(<Book[]>,<Tag[]>,<Book>)\
+&emsp;&emsp;6.9.Add let foodsObservable:Observable<Book[]> in home component constructor(replace this.foods)\
 &emsp;&emsp;6.10.Use .subscribe() at the end of else statement\
-&emsp;&emsp;6.11.For food-page and tags components remove this.foods and subscribe to the method\
-&emsp;&emsp;6.12.Change food.id to just food in food page html file\
+&emsp;&emsp;6.11.For book-page and tags components remove this.foods and subscribe to the method\
+&emsp;&emsp;6.12.Change book.id to just book in book page html file\
 &emsp;&emsp;6.13.Adding Login\
 &emsp;&emsp;&emsp;&emsp;6.13.1.Create login-page Component\
 &emsp;&emsp;&emsp;&emsp;6.13.2.Add component to route(app-routing)\
@@ -207,11 +207,11 @@
 &emsp;&emsp;6.16.Connect Login API to MongoDB Atlas\
 &emsp;&emsp;&emsp;&emsp;6.16.1.Move APIs into routers\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.1.1.Create routers folder(src folder)\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.1.2.Create food.routers.ts in routers folder and put all food apis in it\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.1.3.Move all app.get() methods from server.ts to food.routers(food ones)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.1.2.Create book.routers.ts in routers folder and put all book apis in it\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.1.3.Move all app.get() methods from server.ts to book.routers(book ones)\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.1.4.Create router instance and replace app.get with router.get\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.1.5.Remove the "/api/food" part from every router.get()\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.1.6.Add food.router to server.ts\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.1.5.Remove the "/api/book" part from every router.get()\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.1.6.Add book.router to server.ts\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.1.7.Create user.router.ts folder(routers folder)\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.1.8.Put login api and token response methods from server to user.router\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.1.8.Create router instance and replave app.get with router.get\
@@ -228,16 +228,16 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.4.Create config folder(in src) and a database.config.ts file\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.5.Import connect and connectOptions from mongoose to database.config\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.6.Create dbConnect function(export const) and use it inside server.ts\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.7.Create models folder ,food.models and user.models file (src folder)\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.7.1.Created Food interface , FoodSchema and food model\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.7.Create models folder ,book.models and user.models file (src folder)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.7.1.Created Book interface , FoodSchema and Book model\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.7.2.Created User interface , USerSchema and user model\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.8.Seed the models into database\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.8.1.Import asyncHandler(express) to food and user router\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.8.1.Import asyncHandler(express) to book and user router\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.8.2.Use asyncHandler in router.get()\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.8.4.Check count in asyncHandler(use await,.countDocuments)\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.8.5.Use .create() to create model at the end of async\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.9.Use the database instead of data.ts file in code\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.10.Get foods data from database instead of data.ts file(food.router)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.10.Get foods data from database instead of data.ts file(book.router)\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.10.1.Change router.get(/) use asyncHandler and use .find()\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.10.2.Change router.get(search),use asyncH ,RegExp, .find()\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.16.2.10.3.Change router.get(tags),use asyncH,aggregate(),sort()\
@@ -302,104 +302,69 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.3.3.Add table to order-items-list html (use *ngFor)\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.3.4.Add order-items-list [order]="order" tag under form tag in checkout-page\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.3.5.Add CSS\
-&emsp;&emsp;&emsp;&emsp;6.19.4.Add Map to checkout-page\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.1.Add button to createOrder()\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.2.Add Leaflet npm package\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.2.1.Add npm i --save-dev @types/leaflet\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.2.1.Add CSS to angular.json("styles")\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.3.Add AddressLatLng?:LatLng to Order Model\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.4.Create Map Component\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.4.1.Change selector to "map" in map.ts\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.4.2.Add map tag on div "map" in checkout-page\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.4.3.Add HTML to map component(div #map class="map")\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.4.4.Add @ViewChild('map',{static:true}) mapRef!:ElementRef\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.4.5.Add map!:Map\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.4.6.Create initializeMap() method,use map import from leaflet\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.4.7.Add private readonly DEAFAULT_LATLNG:LatLngTuple=[]\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.4.8.Use initializeMap() in ngOnInit()\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.4.9.Add CSS\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.4.10.Create findMyLocation() method\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.4.11.Add a button to html\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.5.Create Map Service\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.5.1.Create getCurrentLocation():Observable< LatLngLiteral >\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.5.2.Use navigator.geolocation inside getCurrentLocation()\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.5.3.Add locationService to map.ts constructor\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.5.4.Add getCurrentLocation to findMyLocation()(subscribe to it)\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.6.Add private readonly MARKER_ZOOM_LEVEL to map component\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.7.Add private readonly MARKER_ICON to map component(import leaflet icon)\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.8.Add currentMarket!:Marker(from leaflet) under map!:Map\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.9.Create setMarker(latlng:LatLngExpression) method\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.10.Use marker(leaflet import) and then .addTo(this.map)\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.11.Add this.map.setView in findMyLocation()\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.12.Change console.log to this.setMarker(latlng) in findMyLocation()\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.13.Add on click event to setMarker (use LeafletMouseEvent) in initializeMap\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.14.Add on dragend event to setMarker (use getLangLeng()) in setMarker()\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.15.Add order!:Order @Input\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.16.Create set addressLatLng(latlng:LatLng)and add it to setMarker()\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.17.Add < map [order]="order" >< /map> to checkout-page html\
-&emsp;&emsp;&emsp;&emsp;6.19.5.Create Save Order\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.1.Create Order Model\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.1.1.Import model,Schema and Types from mongoose\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.1.2.Export interface LatLng{lat,lng}\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.1.3.Export const LatLngSchema\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.1.4.Export interface OrderItem{food,price,quantity}\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.1.5.Export const OrderItemSchema\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.1.6.Add Order Model from frontend(shared/models) to backend\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.1.6.1.Change class to interface and remove !'s\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.1.6.2.Change CartItem[] to OrderItem[]\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.1.6.3.Change createdAt type to Date\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.1.6.4.Add updatedAt:Date\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.1.6.5.Add user:Types.ObjectId\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.1.6.6.Change status type to OrderStatus\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.1.7.Add const OrderSchema\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.1.8.Export const OrderModel = model ('order' , orderSchema)\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.2.Create order_status.ts file in constants folder\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.2.1.Export enum OrderStatus{NEW,PAYED,SHIPPED,CANCELED,REFUNDED}\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.3.Create order.router file (routers folder)\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.3.1.Create order API\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.3.2.Import Router and asyncHandler\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.3.3.Create post request and use deleteOne to replace NEW  order\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.4.Create middleware folder and auth.mid.ts (to check auth of user)\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.4.1.Export default(req:any,res:any,next:any) function\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.4.2.Add const token=req.headers.access_token as string;\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.4.3.If !token return res.status(HTTP_UNAUTHORIZED).send()\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.4.4.Add export const HTTP_UNAUTHORIZED=401 in http_status.ts\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.4.5.Use try catch class\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.4.6.Inside try add const decodedUser=verify(token,process.env.)\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.4.7.Add id to jwt.sign at generateTokenResponse()(user.router)\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.4.8.Return next() after try catch class\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.4.9.Add auth middleware to order.router (router.use(auth))\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.5.Save newOrder and send it to the client(at the end of router.post)\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.5.1.Use await newOrder.save() and res.send(newOrder)\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.5.2.Export order router\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.5.3.Connect order.router to server.ts\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.6.Add ORDERS_URL,ORDER_CREATE_URL to urls.ts in frontend(constants folder)\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.7.Create Order Service\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.7.1.Add HttpClient in constructor\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.7.2.Make create(order:Order) function\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.7.3.Add an auth interceptor and put it in auth folder\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.7.4.Add UserService to constructor\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.7.5.Get current user and if(user.token) request=request.clone()\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.7.6.Add interceptor to app.module providers\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.7.7.Connect order service to createOrder() in checkout-page\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.7.8.Add validation for order address\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.7.9.Add OrderService and Router in checkout-page constructor\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.7.10.Call create() function and subscribe to it\
-&emsp;&emsp;&emsp;&emsp;6.19.6.Create Payment Page\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.6.1.Create Payment Component\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.6.2.Add Component to app-routing\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.6.3.Get new saved order from the current user, user router.get (order router)\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.6.4.Add ORDER_NEW_FOR_CURRENT_USER_URL in urls.ts file\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.6.5.Add getNewOrderForCurrentUser():Observable< Order > method(order.service)\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.6.6.Add OrderService and Router to payment-page constructor\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.6.7.Subscribe to orderService.getNewOrderForCurrentUser()\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.6.8.Add HTML\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.6.9.Make readonly input for the map\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.6.10.Create get addressLatLng\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.6.11.Change OnInit with OnChanges\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.6.12.Create showLocationOnReadOnlyMode() method\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.6.13.If (readonly and addressLatLng) then call showLocationOnReadOnlyMode()\
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.6.13.Add readonly=true to map tag in payment-page html\
+&emsp;&emsp;&emsp;&emsp;6.19.4.Create Save Order\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.1.Create Order Model\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.1.1.Import model,Schema and Types from mongoose\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.1.2.Export interface LatLng{lat,lng}\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.1.3.Export const LatLngSchema\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.1.4.Export interface OrderItem{book,price,quantity}\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.1.5.Export const OrderItemSchema\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.1.6.Add Order Model from frontend(shared/models) to backend\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.1.6.1.Change class to interface and remove !'s\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.1.6.2.Change CartItem[] to OrderItem[]\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.1.6.3.Change createdAt type to Date\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.1.6.4.Add updatedAt:Date\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.1.6.5.Add user:Types.ObjectId\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.1.6.6.Change status type to OrderStatus\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.1.7.Add const OrderSchema\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.1.8.Export const OrderModel = model ('order' , orderSchema)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.2.Create order_status.ts file in constants folder\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.2.1.Export enum OrderStatus{NEW,PAYED,SHIPPED,CANCELED,REFUNDED}\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.3.Create order.router file (routers folder)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.3.1.Create order API\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.3.2.Import Router and asyncHandler\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.3.3.Create post request and use deleteOne to replace NEW  order\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.4.Create middleware folder and auth.mid.ts (to check auth of user)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.4.1.Export default(req:any,res:any,next:any) function\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.4.2.Add const token=req.headers.access_token as string;\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.4.3.If !token return res.status(HTTP_UNAUTHORIZED).send()\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.4.4.Add export const HTTP_UNAUTHORIZED=401 in http_status.ts\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.4.5.Use try catch class\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.4.6.Inside try add const decodedUser=verify(token,process.env.)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.4.7.Add id to jwt.sign at generateTokenResponse()(user.router)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.4.8.Return next() after try catch class\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.4.9.Add auth middleware to order.router (router.use(auth))\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.5.Save newOrder and send it to the client(at the end of router.post)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.5.1.Use await newOrder.save() and res.send(newOrder)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.5.2.Export order router\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.5.3.Connect order.router to server.ts\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.6.Add ORDERS_URL,ORDER_CREATE_URL to urls.ts in frontend(constants folder)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.7.Create Order Service\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.7.1.Add HttpClient in constructor\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.7.2.Make create(order:Order) function\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.7.3.Add an auth interceptor and put it in auth folder\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.7.4.Add UserService to constructor\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.7.5.Get current user and if(user.token) request=request.clone()\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.7.6.Add interceptor to app.module providers\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.7.7.Connect order service to createOrder() in checkout-page\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.7.8.Add validation for order address\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.7.9.Add OrderService and Router in checkout-page constructor\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.4.7.10.Call create() function and subscribe to it\
+&emsp;&emsp;&emsp;&emsp;6.19.5.Create Order Page\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.1.Create Order Component\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.2.Add Component to app-routing\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.3.Get new saved order from the current user, user router.get (order router)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.4.Add ORDER_NEW_FOR_CURRENT_USER_URL in urls.ts file\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.5.Add getNewOrderForCurrentUser():Observable< Order > method(order.service)\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.6.Add OrderService and Router to order-page constructor\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.7.Subscribe to orderService.getNewOrderForCurrentUser()\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.8.Add HTML\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.9.Make readonly input for the map\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.10.Create get addressLatLng\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.11.Change OnInit with OnChanges\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.12.Create showLocationOnReadOnlyMode() method\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.13.If (readonly and addressLatLng) then call showLocationOnReadOnlyMode()\
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.13.Add readonly=true to map tag in order-page html\
 &emsp;&emsp;6.20.Add Auth Guard\
 &emsp;&emsp;&emsp;&emsp;6.20.1.Generate Guard , use ng g guard auth/guards/auth\
 &emsp;&emsp;&emsp;&emsp;6.20.2.Add guard to checkout path in app-routing(use canActivate:[AuthGuard])\
