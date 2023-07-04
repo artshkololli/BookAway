@@ -31,15 +31,6 @@ li a img{
   position: relative;
   height: 7rem;
 }
-.favorite{
-  position: absolute;
-  top: 0.5rem;
-  right: 1rem;
-  font-size: 1.2rem;
-}
-.favorite.not{
-  color: grey;
-}
 .stars{
   margin-bottom: 0.2rem;
 }
@@ -48,10 +39,10 @@ li a img{
   justify-content: space-between;
   align-items: flex-start;
 }
-.origins{
+.description{
   flex: 9;
 }
-.origins span{
+.description span{
   border-radius: 0.2rem;
   background-color: whitesmoke;
   display: inline-block;
@@ -61,7 +52,7 @@ li a img{
   padding: 0 0.5rem;
   margin-top: 0.2rem;
 }
-.cook-time{
+.pages{
   font-size:0.9rem;
   flex: 3;
   text-align: right;

@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Observable } from 'rxjs';
-import { FoodService } from 'src/app/services/food.service';
-import { Food } from 'src/app/shared/models/Food';
+import { BookService } from 'src/app/services/book.service';
+import { Book } from 'src/app/shared/models/Book';
 
 @Component({
   selector: 'app-home',
@@ -11,19 +11,19 @@ import { Food } from 'src/app/shared/models/Food';
 })
 export class HomeComponent implements OnInit {
 
-  foods: Food[] = [];
-  constructor(private foodService: FoodService, activatedRoute: ActivatedRoute) {
-    let foodsObservalbe:Observable<Food[]>;
+  books: Book[] = [];
+  constructor(private bookService: BookService, activatedRoute: ActivatedRoute) {
+    let booksObservalbe:Observable<Book[]>;
     activatedRoute.params.subscribe((params) => {
       if (params.searchTerm)
-        foodsObservalbe = this.foodService.getAllFoodsBySearchTerm(params.searchTerm);
+        booksObservalbe = this.bookService.getAllBooksBySearchTerm(params.searchTerm);
       else if (params.tag)
-        foodsObservalbe = this.foodService.getAllFoodsByTag(params.tag);
+        booksObservalbe = this.bookService.getAllBooksByTag(params.tag);
       else
-        foodsObservalbe = foodService.getAll();
+        booksObservalbe = bookService.getAll();
 
-        foodsObservalbe.subscribe((serverFoods) => {
-          this.foods = serverFoods;
+        booksObservalbe.subscribe((serverBooks) => {
+          this.books = serverBooks;
         })
     })
   }

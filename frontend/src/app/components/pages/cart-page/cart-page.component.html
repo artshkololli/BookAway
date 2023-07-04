@@ -8,10 +8,10 @@
   <ul>
     <li *ngFor="let cartItem of cart.items">
       <div>
-        <img [src]="cartItem.food.imageUrl" [alt]="cartItem.food.name">
+        <img [src]="cartItem.book.imageUrl" [alt]="cartItem.book.name">
       </div>
       <div>
-        <a routerLink="/food/{{cartItem.food.id}}">{{cartItem.food.name}}</a>
+        <a routerLink="/book/{{cartItem.book.id}}">{{cartItem.book.name}}</a>
       </div>
       <div>
         <select #quantitySelect
@@ -34,7 +34,7 @@
   </ul>
   <div class="checkout">
     <div>
-      <div class="foods-count">{{cart.totalCount}}</div>
+      <div class="books-count">{{cart.totalCount}}</div>
       <div class="total-price">{{cart.totalPrice | currency}}</div>
     </div>
     <a routerLink="/checkout">Proceed to Checkout</a>

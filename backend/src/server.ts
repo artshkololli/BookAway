@@ -3,7 +3,7 @@ dotenv.config();
 
 import express from "express";
 import cors from "cors";
-import foodRouter from './routers/food.router';
+import bookRouter from './routers/book.router';
 import userRouter from './routers/user.router';
 import orderRouter from './routers/order.router';
 import { dbConnect } from './configs/database.config';
@@ -17,7 +17,7 @@ app.use(cors({
     origin:["http://localhost:4200"]
 }));
 
-app.use("/api/foods",foodRouter);
+app.use("/api/books",bookRouter);
 app.use("/api/users", userRouter);
 app.use("/api/orders", orderRouter);
 

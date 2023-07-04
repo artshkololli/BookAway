@@ -43,15 +43,15 @@ img{
 .favorite.not{
   color:gray;
 }
-.origins{
+.description{
   display: flex;
   flex-wrap: wrap;
-  margin: 1rem 0;
+  margin: 0.5rem 0;
 }
-.origins span{
+.description span{
   padding: 0.5rem;
+  padding-left: 0;
   font-size: 1.2rem;
-  margin: 0.5rem 0.5rem 0.5rem 0;
   border-radius: 2rem;
   background-color: white;
 }
@@ -61,16 +61,15 @@ img{
 }
 .tags a{
   background-color: white;
-  padding: 0.3rem 1rem;
-  margin: 0.2rem 0.15rem;
+  padding:0.3rem 0.6rem 0.3rem 0;
   border-radius: 10rem;
   font-weight: 600;
   color: blue;
 }
-.cook-time{
+.pages{
   margin-top: 1rem;
 }
-.cook-time span{
+.pages span{
   padding: 0.6rem 2rem 0.6rem 0;
   border-radius: 10rem;
   font-size: 1.3rem;

@@ -1,18 +1,18 @@
 import {Router} from 'express';
-import { sample_foods, sample_tags } from '../data';
+import { sample_books } from '../data';
 import asyncHandler from 'express-async-handler';
-import { FoodModel } from '../models/food.model';
+import { BookModel } from '../models/book.model';
 const router = Router();
 
 router.get("/seed", asyncHandler(
  async (req, res) => {
-    const foodsCount = await FoodModel.countDocuments();
-    if(foodsCount> 0){
+    const booksCount = await BookModel.countDocuments();
+    if(booksCount> 0){
       res.send("Seed is already done!");
       return;
     }
 
-    await FoodModel.create(sample_foods);
+    await BookModel.create(sample_books);
     res.send("Seed Is Done!");
 }
 ))
@@ -20,22 +20,22 @@ router.get("/seed", asyncHandler(
 
 router.get("/",asyncHandler(
   async (req, res) => {
-    const foods = await FoodModel.find();
-      res.send(foods);
+    const books = await BookModel.find();
+      res.send(books);
   }
 ))
 
 router.get("/search/:searchTerm", asyncHandler(
   async (req, res) => {
     const searchRegex = new RegExp(req.params.searchTerm, 'i');
-    const foods = await FoodModel.find({name: {$regex:searchRegex}})
-    res.send(foods);
+    const books = await BookModel.find({name: {$regex:searchRegex}})
+    res.send(books);
   }
 ))
 
 router.get("/tags", asyncHandler(
   async (req, res) => {
-    const tags = await FoodModel.aggregate([
+    const tags = await BookModel.aggregate([
       {
         $unwind:'$tags'
       },
@@ -56,7 +56,7 @@ router.get("/tags", asyncHandler(
 
     const all = {
       name : 'All',
-      count: await FoodModel.countDocuments()
+      count: await BookModel.countDocuments()
     }
 
     tags.unshift(all);
@@ -66,15 +66,15 @@ router.get("/tags", asyncHandler(
 
 router.get("/tag/:tagName",asyncHandler(
   async (req, res) => {
-    const foods = await FoodModel.find({tags: req.params.tagName})
-    res.send(foods);
+    const books = await BookModel.find({tags: req.params.tagName})
+    res.send(books);
   }
 ))
 
-router.get("/:foodId", asyncHandler(
+router.get("/:bookId", asyncHandler(
   async (req, res) => {
-    const food = await FoodModel.findById(req.params.foodId);
-    res.send(food);
+    const book = await BookModel.findById(req.params.bookId);
+    res.send(book);
   }
 ))
 

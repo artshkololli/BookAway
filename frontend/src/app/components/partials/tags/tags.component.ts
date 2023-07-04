@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FoodService } from 'src/app/services/food.service';
+import { BookService } from 'src/app/services/book.service';
 import { Tag } from 'src/app/shared/models/Tag';
 
 @Component({
@@ -9,8 +9,8 @@ import { Tag } from 'src/app/shared/models/Tag';
 })
 export class TagsComponent implements OnInit{
   tags?:Tag[];
-  constructor(foodService:FoodService){
-    foodService.getAllTags().subscribe(serverTags => {
+  constructor(bookService:BookService){
+    bookService.getAllTags().subscribe(serverTags => {
       this.tags=serverTags;
     });
   }

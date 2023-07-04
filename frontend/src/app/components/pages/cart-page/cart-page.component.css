@@ -78,10 +78,10 @@ li .remove-button:hover{
   justify-content: center;
   align-items: flex-start;
 }
-.foods-count{
+.books-count{
   margin-bottom: 1.5rem;
 }
-.foods-count::before{
+.books-count::before{
   content: "Count: ";
   color: grey;
 }
