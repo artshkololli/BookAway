@@ -35,7 +35,7 @@ export const sample_books:Book[]=[
 ];
 
 export const sample_tags:Tag[]=[
-  {name:'All',count:6},
+  // {name:'All',count:6},
   {name:'History',count:1},
   {name:'1900s',count:1},
   {name:'Fantasy',count:1},
