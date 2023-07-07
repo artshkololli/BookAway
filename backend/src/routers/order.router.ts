@@ -4,9 +4,17 @@ import { HTTP_BAD_REQUEST } from "../constants/http_status";
 import { OrderModel } from "../models/order.model";
 import { OrderStatus } from "../constants/order_status";
 import auth from "../middlewares/auth.mid";
+import { Order } from "../models/order.model";
 
 const router=Router();
 router.use(auth)
+
+router.get("/",asyncHandler(
+    async (req, res) => {
+      const orders = await OrderModel.find();
+        res.send(orders);
+    }
+))
 
 router.post('/create', asyncHandler(
     async(req:any,res:any)=>{
