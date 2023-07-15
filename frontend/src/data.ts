@@ -33,7 +33,7 @@ export const sample_books:Book[]=[
   },
   {
     id:'3',
-    name:'ng-book: The Complete Guide to Angular 5th Edition by Nathan Murray,Felipe Coury,Ari Lerner,Carlos Taborda',
+    name:'ng-book: Angular 5th Edition by Nathan Murray,Felipe Coury,Ari Lerner,Carlos Taborda',
     price:59.99,
     pages:720,
     description:' The in-depth, complete, and up-to-date book on Angular. Become an Angular expert today.'+
