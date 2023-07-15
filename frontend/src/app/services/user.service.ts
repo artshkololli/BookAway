@@ -48,7 +48,7 @@ export class UserService {
           this.setUserToLocalStorage(user);
           this.userSubject.next(user);
           this.toastrService.success(
-            `Welcome to the Foodmine ${user.name}`,
+            `Welcome to the BookAway ${user.name}`,
             'Register Successful'
           )
         },
