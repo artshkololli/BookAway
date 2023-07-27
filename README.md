@@ -365,11 +365,6 @@
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.12.Create showLocationOnReadOnlyMode() method\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.13.If (readonly and addressLatLng) then call showLocationOnReadOnlyMode()\
 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;6.19.5.13.Add readonly=true to map tag in order-page html\
-&emsp;&emsp;6.20.Add Auth Guard\
-&emsp;&emsp;&emsp;&emsp;6.20.1.Generate Guard , use ng g guard auth/guards/auth\
-&emsp;&emsp;&emsp;&emsp;6.20.2.Add guard to checkout path in app-routing(use canActivate:[AuthGuard])\
-&emsp;&emsp;&emsp;&emsp;6.20.3.Add userService and router to constructor\
-&emsp;&emsp;&emsp;&emsp;6.20.4.If user is not authenticated return to login page\
 
 
 
